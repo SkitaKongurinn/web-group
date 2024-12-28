@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Что приготовить из того что есть</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" class="logo" src="logo.png" alt="">
+        <h1 class="logoname">Что приготовить из того что есть</h1>
+    </header>
+
+    <section class="orange-block">
+        <div class="arrows opc">
+            <button id="arrow-left" onclick="arrow_left()">←</button>
+        </div>
+        <div class="dish opc">
+            <img id="image" src="" alt="">
+        </div>
+        <div class="arrows opc">
+            <button id="arrow-right" onclick="arrow_right()">→</button>
+        </div>
+        <div class="right-side">
+            <div class="input-box">
+                <input id="input" type="text" placeholder="Введите сюда свои продукты">
+            </div>
+            <div class="buttons-inside">
+                <button class="but" onclick="search()">Найти рецепт</button>
+                <button class="but" onclick="random()">Случайное блюдо</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="additional-info opc">
+        <div class="products">
+            <div class="ingredients">
+                <h2>Дополнительные продукты</h2>
+                <img id="add-1" class="product" src="" alt="">
+                <img id="add-2" class="product" src="" alt="">
+                <img id="add-3" class="product" src="" alt="">
+                <img id="add-4" class="product" src="" alt="">
+                <img id="add-5" class="product" src="" alt="">
+                <img id="add-6" class="product" src="" alt="">
+                <img id="add-7" class="product" src="" alt="">
+                <img id="add-8" class="product" src="" alt="">
+                <img id="add-9" class="product" src="" alt="">
+                <img id="add-10" class="product" src="" alt="">
+                <img id="add-11" class="product" src="" alt="">
+            </div>
+            <div class="divider"></div>
+        </div>
+
+        <div class="preparation">
+            <h2 id="name">Способ приготовления</h2>
+            <p id="method"></p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
